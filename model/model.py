@@ -16,7 +16,7 @@ class GroupwiseConv2d(nn.Module):
             out.append(self.convs[i](x_split[i]))
         return torch.cat(out, dim=1)
 
-class ResidualCoSOV1(nn.Module)
+class ResidualCoSOV1(nn.Module):
     def __init__(self):
         super(ResidualCoSOV1, self).__init__()
         pass
@@ -25,7 +25,7 @@ class ResidualCoSOV1(nn.Module)
         pass
 
 
-class EncoderUnit(nn.Module)
+class EncoderUnit(nn.Module):
     def __init__(self):
         super(EncoderUnit, self).__init__()
         pass
